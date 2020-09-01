@@ -20,9 +20,9 @@ public class MovimentacoesTeste extends BaseTeste {
     @Test
     public void adicionandoMovimentacaoSimples() {
         realizarLogin();
-        movimentacaoPage.selecioanarRadioMeioPagamento("Inovapay");
-        movimentacaoPage.selecionarComboBanco("Bradesco - Safepag Pagamentos SA");
-        movimentacaoPage.selecionarComboTransacao("Débito");
+        movimentacaoPage.selecioanarRadioMeioPagamento("radio");
+        movimentacaoPage.selecionarComboBanco("Banco de Teste");
+        movimentacaoPage.selecionarComboTransacao("Cartão de Credito");
         movimentacaoPage.setValorMovimentacao("30,00");
         movimentacaoPage.setObservacao("12345");
         movimentacaoPage.setObservacaoIngles("12345");
